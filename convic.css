@@ -1,0 +1,65 @@
+* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style for the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for section headings */
+h1, h2 {
+    color: #060606;
+    text-align: left;
+}
+
+/* Style for paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Style for specific sections */
+#Conviction, #People, #Portfolio, #Projects, #Thinking {
+    margin-bottom: 40px;
+}
+
+/* Style for names in the People section */
+#People p {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Style for portfolio companies */
+#Portfolio p {
+    margin-left: 20px;
+    
+
+}
+
+/* Style for project items */
+#Projects p {
+    margin-left: 20px;
+}
+
+/* Style for thinking items */
+#Thinking p {
+    margin-left: 20px;
+    color: blue;
+}
+
+/* Add some space between sections */
+section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
